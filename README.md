@@ -13,3 +13,9 @@ https://www.youtube.com/watch?v=kIcGHbC2-7Q
 https://www.youtube.com/watch?v=thw3wR1HSzU"  
 "https://www.youtube.com/watch?v=YMUaSA2sbec  
 "https://www.youtube.com/watch?v=V1YV1zNjHaU"  
+
+Для сборки нужна Haskell Platform версии 7.10.3 и выше. Сборка выполняется так: переходим в корневой каталог клонированного проекта и выполняем последовательно команды 
+```bash
+$ cabal configure    
+$ cabal build
+```
